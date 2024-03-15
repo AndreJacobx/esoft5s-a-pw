@@ -22,6 +22,7 @@
 
       /* Estilos gerais */
 
+    
       body {
         font-family: 'Arial', sans-serif;
         color: #333;
@@ -31,6 +32,9 @@
       main {
         max-width: 80vw;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
 
       main > section {
@@ -39,6 +43,7 @@
 
       main section,
       main article {
+        
         color: black;
         background-color: #fff;
         padding: 20px;
@@ -51,12 +56,16 @@
       section h2,
       section h3 {
         margin-bottom: 8px;
+        display: flex;
+        flex-direction: column;
       }
 
       article h1,
       article h2,
       article h3 {
         margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
       }
 
       p {
@@ -70,9 +79,9 @@
       /* Header */
 
       header {
+        display: flex;
         background-color: #007bff;
         color: #fff;
-        text-align: center;
         padding: 20px;
       }
 
@@ -93,6 +102,7 @@
       }
 
       nav a {
+        display: flex;
         text-decoration: none;
         color: #fff;
         font-weight: bold;
@@ -185,8 +195,10 @@
       </ul>
     </nav>
 
+ 
     <main>
       <section id="info-squirtle" aria-labelledby="info-squirtle-label">
+        
         <h2 id="info-squirtle-label">Informações sobre Squirtle</h2>
         <img
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
@@ -301,6 +313,7 @@
         </ul>
       </section>
     </main>
+  
 
     <footer aria-label="Rodapé">
       <p aria-label="Copyright">
